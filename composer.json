@@ -1,0 +1,21 @@
+{
+    "name": "era-dk/module-base",
+    "description": "Era Base Module",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Nicholas Miller",
+            "email": "nm@era.dk"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Era\\Base\\": ""
+        }
+    }
+}

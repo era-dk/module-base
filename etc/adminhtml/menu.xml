@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Era. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend/etc/menu.xsd">
+    <menu>
+        <add id="Era_Base::base" title="Era" module="Era_Base" sortOrder="31"
+             dependsOnModule="Era_Base"
+             resource="Era_Base::base"/>
+        <add id="Era_Base::config" title="Configuration" module="Era_Base" sortOrder="1"
+             parent="Era_Base::base"
+             resource="Era_Base::config"/>
+    </menu>
+</config>

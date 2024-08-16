@@ -1,0 +1,45 @@
+// /**
+//  * Copyright © Era. All rights reserved.
+//  */
+
+#nav {
+    #menu-era-base-base {
+        > a {
+            display: flex;
+            align-items: center;
+
+            &:before {
+                display: block;
+                width: 100%;
+                content: '';
+                background-color: #fff;
+                -webkit-mask-image: url('../Era_Base/images/logo.svg');
+                mask-image: url('../Era_Base/images/logo.svg');
+                -webkit-mask-size: 33px 33px;
+                mask-size: 33px 33px;
+                -webkit-mask-repeat: no-repeat;
+                mask-repeat: no-repeat;
+                -webkit-mask-position: center center;
+                mask-position: center center;
+            }
+            > span {
+                display: none;
+            }
+        }
+    }
+}
+
+.admin__page-nav.era,
+.admin__page-nav.era._collapsed._show {
+    .admin__page-nav-title,
+    .admin__page-nav-title._collapsible:hover {
+        background-image: url('../Era_Base/images/logo.svg');
+        background-position: left 1.5rem center;
+        background-repeat: no-repeat;
+        background-size: 33px 33px;
+
+        > strong {
+            visibility: hidden;
+        }
+    }
+}
